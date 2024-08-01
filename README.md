@@ -1,5 +1,15 @@
 # coinmarketcap-exporter
 
+[![trivy](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/trivy.yml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/trivy.yml)
+[![docker-hub-description](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/docker-hub-description.yml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/docker-hub-description.yml)
+[![build status](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/main.yaml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/main.yaml)
+[![gitHub release](https://img.shields.io/github/v/release/visibilityspots/dockerfile-coinmarketcap-exporter)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/releases)
+[![docker image size](https://img.shields.io/docker/image-size/visibilityspots/coinmarketcap-exporter/latest)](https://hub.docker.com/r/visibilityspots/coinmarketcap-exporter)
+[![docker pulls](https://img.shields.io/docker/pulls/visibilityspots/coinmarketcap-exporter.svg)](https://hub.docker.com/r/visibilityspots/coinmarketcap-exporter/)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvisibilityspots%2Fdockerfile-coinmarketcap-exporter.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvisibilityspots%2Fdockerfile-coinmarketcap-exporter?ref=badge_shield&issueType=license)
+
+
 A prometheus exporter for <https://coinmarketcap.com/>. Provides Prometheus metrics from the API endpoint of Coinmarketcap, such as US price, Bitcoin price, trading volume, etc. [Blog post found here](http://blog.billyc.io/2017/12/02/a-prometheus-exporter-for-cryptocurrency-values-using-the-coinmarketcap-api/).
 
 When running this exporter with both Prometheus and Grafana, [you can create dashboards like](https://grafana.com/dashboards/3890):
