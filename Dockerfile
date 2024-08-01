@@ -1,4 +1,4 @@
-FROM python:3.12.2-alpine3.19
+FROM python:3.12.4-alpine3.20
 WORKDIR /opt/coinmarketcap-exporter
 COPY ./requirements.txt .
 RUN apk --no-cache add --virtual build-dependencies build-base \
