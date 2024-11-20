@@ -2,7 +2,7 @@
 
 [![trivy](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/trivy.yml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/trivy.yml)
 [![docker-hub-description](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/docker-hub-description.yml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/docker-hub-description.yml)
-[![build status](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/main.yaml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/main.yaml)
+[![build status](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/main.yml/badge.svg)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/actions/workflows/main.yml)
 [![gitHub release](https://img.shields.io/github/v/release/visibilityspots/dockerfile-coinmarketcap-exporter)](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/releases)
 [![docker image size](https://img.shields.io/docker/image-size/visibilityspots/coinmarketcap-exporter/latest)](https://hub.docker.com/r/visibilityspots/coinmarketcap-exporter)
 [![docker pulls](https://img.shields.io/docker/pulls/visibilityspots/coinmarketcap-exporter.svg)](https://hub.docker.com/r/visibilityspots/coinmarketcap-exporter/)
