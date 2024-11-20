@@ -8,4 +8,5 @@ on:
 jobs:
   update:
     uses: visibilityspots/dockerfile-cloudflared/.github/workflows/docker-hub-description.yml@main
-    secrets: inherit
+    secrets:
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
