@@ -22,11 +22,11 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 ch.setFormatter(formatter)
 log.addHandler(ch)
 
-currency = os.environ.get('CURRENCY', 'USD')
+currency = os.environ.get('CURRENCY', 'EUR')
 cak = os.environ.get('COINMARKETCAP_API_KEY')
-# caching API for 170min (every 3 hours)
+# caching API for every 6 hours
 # Note the api limits: https://pro.coinmarketcap.com/features
-cache_ttl = int(os.environ.get('CACHE_TTL', 10200))
+cache_ttl = int(os.environ.get('CACHE_TTL', 21600))
 cache_max_size = int(os.environ.get('CACHE_MAX_SIZE', 10000))
 cache = TTLCache(maxsize=cache_max_size, ttl=cache_ttl)
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     start_http_server(int(args.port), addr=args.addr)
 
     while True:
-      time.sleep(60)
+      time.sleep(900)
   except KeyboardInterrupt:
     print(" Interrupted")
     exit(0)
