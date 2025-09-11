@@ -4,4 +4,3 @@ command:
 
   python3 coinmarketcap.py -h:
     exit-status: 0
-
