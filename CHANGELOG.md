@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2026.10.0] - 2026-10-08
+### :bug: Bug Fixes
+- [`5cf93d7`](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/commit/5cf93d747ea3d202a196791dd9df92a983673da3) - **security**: python 3.13.16 on alpine 3.24, drop pip from the image *(commit by [@visibilityspots](https://github.com/visibilityspots))*
+
+
 ## [v2025.9.0] - 2025-09-11
 ### :sparkles: New Features
 - [`bb79e23`](https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/commit/bb79e23c4feb57c2965e63c80003b121fce63468) - **api**: adjusted sleep to 900 seconds, api cache TTL towards 6 hours and currency to EUR *(commit by [@visibilityspots](https://github.com/visibilityspots))*
@@ -30,3 +35,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v2024.11.0]: https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/compare/v2024.8.0...v2024.11.0
 [v2024.12.0]: https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/compare/v2024.11.0...v2024.12.0
 [v2025.9.0]: https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/compare/v2024.12.0...v2025.9.0
+[v2026.10.0]: https://github.com/visibilityspots/dockerfile-coinmarketcap-exporter/compare/v2025.9.0...v2026.10.0
