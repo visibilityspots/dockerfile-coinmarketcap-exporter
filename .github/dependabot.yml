@@ -11,3 +11,8 @@ updates:
     schedule:
       interval: "weekly"
 
+  # Check for python package updates
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
